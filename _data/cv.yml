@@ -81,6 +81,8 @@ cv:
       - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
         position: Research mentoring
         location: Waterloo, Ontario, Canada
+        start_date: Summer, 2024
+        end_date: Summer, 2025
         summary: |
           - Summer 2024: Mentored a final-year undergraduate student on studying the effects
             of noise in implementation of chaotic systems on a universal quantum computer.
@@ -118,6 +120,32 @@ cv:
           and quantum information to high school students and the general public as part of
           the outreach program at IQC.
 
+    Teaching assistance (TA):
+      - title: Fall 2021 - Spring 2022
+        summary: |
+          - Statistical mechanics (PHYS 359)
+          - Classical mechanics and special relativity (PHYS 263)
+
+      - title: Fall 2022 - Spring 2023
+        summary: |
+          - Statistical mechanics (PHYS 359)
+          - Classical mechanics and special relativity (PHYS 263)
+
+      - title: Fall 2023 - Spring 2024
+        summary: |
+          - Intermediate classical mechanics (PHYS 363)
+          - Quantum Physics 2 (PHYS 334)
+      
+      - title: Fall 2024 - Spring 2025
+        summary: |
+          - Classical Mechanics (PHYS 363)
+          - Quantum Physics 1 (PHYS 234)
+          - Introductory Astronomy (SCI 238)
+      
+      - title: Fall 2025 - Spring 2026
+        summary: |
+          - Mechanics (PHYS 121)
+          - Physics, the Universe and everything (SCI 207)
 
     Awards:
       - title: David Johnston Award for Scientific Outreach 2024  

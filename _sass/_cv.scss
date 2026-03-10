@@ -195,6 +195,18 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+/* allow long position/company names to wrap instead of slamming into
+   the date badge (fixes the “overlapping headers” problem) */
+.cv .title,
+.cv h6 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* if you need a little more room for the year badge */
+.date-column {
+  width: 80px;  /* default is 75px */
+}
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;
