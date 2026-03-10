@@ -121,31 +121,31 @@ cv:
           the outreach program at IQC.
 
     Teaching assistance (TA):
-      - title: Fall 2021 - Spring 2022
-        summary: |
-          - Statistical mechanics (PHYS 359)
-          - Classical mechanics and special relativity (PHYS 263)
+      - label: Fall 2021 - Spring 2022
+        details: |
+          Statistical mechanics (PHYS 359)
+          Classical mechanics and special relativity (PHYS 263)
 
-      - title: Fall 2022 - Spring 2023
-        summary: |
-          - Statistical mechanics (PHYS 359)
-          - Classical mechanics and special relativity (PHYS 263)
+      - label: Fall 2022 - Spring 2023
+        details: |
+          Statistical mechanics (PHYS 359)
+          Classical mechanics and special relativity (PHYS 263)
 
-      - title: Fall 2023 - Spring 2024
-        summary: |
-          - Intermediate classical mechanics (PHYS 363)
-          - Quantum Physics 2 (PHYS 334)
+      - label: Fall 2023 - Spring 2024
+        details: |
+          Intermediate classical mechanics (PHYS 363)
+          Quantum Physics 2 (PHYS 334)
       
-      - title: Fall 2024 - Spring 2025
-        summary: |
-          - Classical Mechanics (PHYS 363)
-          - Quantum Physics 1 (PHYS 234)
-          - Introductory Astronomy (SCI 238)
+      - label: Fall 2024 - Spring 2025
+        details: |
+          Classical Mechanics (PHYS 363)
+          Quantum Physics 1 (PHYS 234)
+          Introductory Astronomy (SCI 238)
       
-      - title: Fall 2025 - Spring 2026
-        summary: |
-          - Mechanics (PHYS 121)
-          - Physics, the Universe and everything (SCI 207)
+      - label: Fall 2025 - Spring 2026
+        details: |
+          Mechanics (PHYS 121)
+          Physics, the Universe and everything (SCI 207)
 
     Awards:
       - title: David Johnston Award for Scientific Outreach 2024  
@@ -169,19 +169,19 @@ cv:
         # summary: Awarded for outstanding scientific research achievement
 
     Relevant courses:
-      - title: Masters
-        summary: |
-          - Quantum Mechanics (PHYS 701)
-          - Statistical Physics (PHYS 704)
-          - Introduction to quantum information processing (QIC 710)
-          - Implementation of quantum information processing (QIC 750)
-          - Atoms and photons (Light matter interaction, QIC-895)
-          
-      - title: PhD
-        summary: |
-          - Theory of quantum information (Advanced QIC 820)
-          - Quantum many-body physics (PHYS 789)
-          - Quantum sensing (QIC 890)
+      - label: Masters
+        details: |
+          Quantum Mechanics (PHYS 701)
+          Statistical Physics (PHYS 704)
+          Introduction to quantum information processing (QIC 710)
+          Implementation of quantum information processing (QIC 750)
+          Atoms and photons (Light matter interaction, QIC-895)
+
+      - label: PhD
+        details: |
+          Theory of quantum information (Advanced QIC 820)
+          Quantum many-body physics (PHYS 789)
+          Quantum sensing (QIC 890)
           
   
     # Skills:
@@ -202,35 +202,6 @@ cv:
     #     icon: fa-solid fa-tag
     #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Teaching assistance (TA):
-      - title: Fall 2021 - Spring 2022
-        summary: |
-          - Statistical mechanics (PHYS 359)
-          - Classical mechanics and special relativity (PHYS 263)
-
-      - title: Fall 2022 - Spring 2023
-        summary: |
-          - Statistical mechanics (PHYS 359)
-          - Classical mechanics and special relativity (PHYS 263)
-
-      - title: Fall 2023 - Spring 2024
-        summary: |
-          - Intermediate classical mechanics (PHYS 363)
-          - Quantum Physics 2 (PHYS 334)
-      
-      - title: Fall 2024 - Spring 2025
-        summary: |
-          - Classical Mechanics (PHYS 363)
-          - Quantum Physics 1 (PHYS 234)
-          - Introductory Astronomy (SCI 238)
-      
-      - title: Fall 2025 - Spring 2026
-        summary: |
-          - Mechanics (PHYS 121)
-          - Physics, the Universe and everything (SCI 207)
-
-
-      
     # Projects:
     #   - name: Quantum Computing
     #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.

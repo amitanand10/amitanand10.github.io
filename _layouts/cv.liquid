@@ -120,80 +120,67 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections - Merge Experience and Volunteer -->
-        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
+        <!-- RenderCV Sections - Custom Order: Education, Experience, Relevant courses, Teaching assistance, Awards, Languages -->
+        {% assign section_order = 'Education,Experience,Relevant courses,Teaching assistance (TA),Awards,Languages' | split: ',' %}
         {% assign empty_array = '' | split: ',' %}
-        {% assign exp = cv.sections.Experience | default: empty_array %}
-        {% assign vol = cv.sections.Volunteer | default: empty_array %}
-        {% assign combined_experience = exp | concat: vol %}
-        {% if combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
-            <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
+        
+        {% for section_name in section_order %}
+          {% assign section_name = section_name | strip %}
+          {% assign section_entries = cv.sections[section_name] | default: empty_array %}
+          
+          {% if section_entries.size > 0 %}
+            <a class="anchor" id="{{ section_name | slugify }}"></a>
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">{{ section_name }}</h3>
+              <div>
+                {% if section_name == 'Education' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/education.liquid %}
+                {% elsif section_name == 'Experience' %}
+                  {% assign vol = cv.sections.Volunteer | default: empty_array %}
+                  {% assign entries = section_entries | concat: vol %}
+                  {% include cv/experience.liquid %}
+                {% elsif section_name == 'Awards' or section_name == 'Honors and Awards' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/awards.liquid %}
+                {% elsif section_name == 'Publications' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/publications.liquid %}
+                {% elsif section_name == 'Skills' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/skills.liquid %}
+                {% elsif section_name == 'Languages' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/languages.liquid %}
+                {% elsif section_name == 'Interests' or section_name == 'Academic Interests' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/interests.liquid %}
+                {% elsif section_name == 'Certificates' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/certificates.liquid %}
+                {% elsif section_name == 'Projects' or section_name == 'Open Source Projects' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/projects.liquid %}
+                {% elsif section_name == 'References' %}
+                  {% assign entries = section_entries %}
+                  {% include cv/references.liquid %}
+                {% else %}
+                  <!-- Generic section -->
+                  {% for entry in section_entries %}
+                    {% if entry.bullet %}
+                      <ul class="card-text font-weight-light list-group list-group-flush">
+                        <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                      </ul>
+                    {% elsif entry.label %}
+                      <div class="card-text font-weight-light">
+                        <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </div>
             </div>
-          </div>
-        {% endif %}
-
-        {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
-        {% for section_pair in cv.sections %}
-          {% assign section_title = section_pair[0] %}
-          {% assign section_entries = section_pair[1] %}
-
-          {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' %}
-            {% continue %}
           {% endif %}
-
-          <a class="anchor" id="{{ section_title | slugify }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
-            <div>
-              {% if section_title == 'Education' %}
-                {% assign entries = section_entries %}
-                {% include cv/education.liquid %}
-              {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
-                {% assign entries = section_entries %}
-                {% include cv/awards.liquid %}
-              {% elsif section_title == 'Publications' %}
-                {% assign entries = section_entries %}
-                {% include cv/publications.liquid %}
-              {% elsif section_title == 'Skills' %}
-                {% assign entries = section_entries %}
-                {% include cv/skills.liquid %}
-              {% elsif section_title == 'Languages' %}
-                {% assign entries = section_entries %}
-                {% include cv/languages.liquid %}
-              {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
-                {% assign entries = section_entries %}
-                {% include cv/interests.liquid %}
-              {% elsif section_title == 'Certificates' %}
-                {% assign entries = section_entries %}
-                {% include cv/certificates.liquid %}
-              {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
-                {% assign entries = section_entries %}
-                {% include cv/projects.liquid %}
-              {% elsif section_title == 'References' %}
-                {% assign entries = section_entries %}
-                {% include cv/references.liquid %}
-              {% else %}
-                <!-- Generic section -->
-                {% for entry in section_entries %}
-                  {% if entry.bullet %}
-                    <ul class="card-text font-weight-light list-group list-group-flush">
-                      <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    </ul>
-                  {% elsif entry.label %}
-                    <div class="card-text font-weight-light">
-                      <strong>{{ entry.label }}:</strong> {{ entry.details }}
-                    </div>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-            </div>
-          </div>
         {% endfor %}
 
       {% elsif render_jsonresume and site.data.resume %}
