@@ -4,8 +4,8 @@ cv:
   email: a63anand@uwaterloo.ca
   location: Waterloo, Ontario, Canada
   phone: +1 226 899 2818
-  image: ""
-  summary: 
+  # image: ""
+  # summary: 
 
   social_networks:
     - network: X
@@ -31,11 +31,11 @@ cv:
         studyType: PhD
         start_date: September, 2023
         end_date: August, 2027
-        score: ""
-        courses: 
-        highlights:
-          - 
-          - 
+        # score: ""
+        # courses: 
+        # highlights:
+        #   - 
+        #   - 
       - institution: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
         location: Waterloo, Ontario, Canada
         url: https://uwaterloo.ca/institute-for-quantum-computing/
@@ -43,11 +43,11 @@ cv:
         studyType: Maters
         start_date: September, 2021
         end_date: August, 2023
-        score: ""
-        courses: 
-        highlights:
-          - 
-          - 
+        # score: ""
+        # courses: 
+        # highlights:
+        #   - 
+        #   - 
 
       - institution: Indian Institute for Engineering Science and Technology, Shibpur
         location: Shibpur, West Bengal, India
@@ -56,9 +56,7 @@ cv:
         studyType: Bachelor of Technology
         start_date: August, 2017
         end_date: August, 2021
-        highlights:
-          - 
-          - 
+        # highlights:
 
     Experience:
       - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
@@ -67,7 +65,7 @@ cv:
         start_date: September, 2023
         end_date: August, 2027
         summary: Research focoused on quantum chaos, recurrence, thermalization and metrology in non-equilibrium quantum systems. Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann
-        highlights:
+        # highlights:
           
 
       - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
@@ -76,7 +74,7 @@ cv:
         start_date: September, 2021
         end_date: August, 2023
         summary: Master thesis on "Chaos and dynamical stability in closed kicked system." Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
-        highlights:
+        # highlights:
           
 
       - company: Indian Institute for Engineering Science and Technology, Shibpur
@@ -84,14 +82,21 @@ cv:
         location: Shibpur, West Bengal, India
         start_date: August, 2020
         end_date: August, 2021
-        summary: Established a correlation between mechanical performance and structural parameters of a BCC Ti-25Nb porous structure and \textbf{determined an optimal porosity range}, providing insights crucial for designing advanced implants for orthopedic applications with improved integration and durability.
+        summary: Investigated mechanical/structural correlations in a BCC Ti‑25Nb
+          porous structure to identify optimal porosity for orthopedic implants.
+        highlights:
+          - Determined an optimal porosity range for improved integration and durability.
+          - Work provided design insights for advanced implant materials.
 
       - company: Indian Institute for Science Education and Research, Kolkata
         position: Undergraduate research intern
         location: Kolkata, West Bengal, India
         start_date: May, 2019
         end_date: July, 2020
-        summary: Developed a quantum strategy to solve the Diner's Dilemma for $n=4$, demonstrating how quantum entanglement can be leveraged as a resource to maximize individual payoffs while maintaining equilibrium in strategies, contributing to advancements in quantum game theory. 
+        summary: Developed a quantum strategy to solve the Diner's Dilemma for n=4,
+          leveraging entanglement to maximize payoffs and maintain strategy equilibrium.
+        highlights:
+          - Contributed to advancements in quantum game theory.
 
     Volunteer:
       - company: People's Climate March
@@ -156,41 +161,41 @@ cv:
       - name: Hindi
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    # Interests:
+    #   - name: Physics
+    #     icon: fa-solid fa-tag
+    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
