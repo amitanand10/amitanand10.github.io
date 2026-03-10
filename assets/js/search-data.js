@@ -30,20 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-false",
-          title: "false",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -412,16 +398,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-started-msaters-in-science-in-physics-with-specilization-in-quantum-information-at-iqc-and-physics-and-astronomy-department-university-of-waterloo",
+          title: 'Started Msaters in Science in physics with specilization in quantum information at IQC...',
+          description: "",
+          section: "News",},{id: "news-started-phd-in-science-in-physics-with-specilization-in-quantum-information-at-iqc-and-physics-and-astronomy-department-university-of-waterloo",
+          title: 'Started PhD in Science in physics with specilization in quantum information at IQC...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
