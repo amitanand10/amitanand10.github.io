@@ -64,18 +64,28 @@ cv:
         location: Waterloo, Ontario, Canada
         start_date: September, 2023
         end_date: August, 2027
-        summary: Research focoused on quantum chaos, recurrence, thermalization and metrology in non-equilibrium quantum systems. Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann
-        # highlights:
-          
+        summary: Research focused on quantum chaos, recurrence, thermalization, and metrology
+          in non-equilibrium quantum systems.
+        highlights:
+          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
       - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
         position: Masters student
         location: Waterloo, Ontario, Canada
         start_date: September, 2021
         end_date: August, 2023
-        summary: Master thesis on "Chaos and dynamical stability in closed kicked system." Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
-        # highlights:
-          
+        summary: Master thesis on "Chaos and dynamical stability in closed kicked system."
+        highlights:
+          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
+
+      - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+        position: Research mentoring
+        location: Waterloo, Ontario, Canada
+        summary: |
+          - Summer 2024: Mentored a final-year undergraduate student on studying the effects
+            of noise in implementation of chaotic systems on a universal quantum computer.
+          - Summer 2025: Mentored an NSERC final-year undergraduate student on studying the
+            effects of disorder on quantum recurrences in many-body systems.
 
       - company: Indian Institute for Engineering Science and Technology, Shibpur
         position: Undergraduate Research Assistant
@@ -99,15 +109,15 @@ cv:
           - Contributed to advancements in quantum game theory.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: Institute for Quantum Computing, University of Waterloo
+        position: Presenter
+        location: Waterloo, Ontario, Canada
+        start_date: 2022
+        end_date: Present
+        summary: Presented and delivered multiple talks and workshops on quantum computing
+          and quantum information to high school students and the general public as part of
+          the outreach program at IQC.
+
 
     Awards:
       - title: David Johnston Award for Scientific Outreach 2024  
@@ -130,31 +140,22 @@ cv:
         awarder: The Erwin-Schrödinger-Institute for Mathematical Physics in Vienna
         # summary: Awarded for outstanding scientific research achievement
 
-    # Publications:
-    #   - title: Zur Elektrodynamik bewegter Körper
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1905-06-30
-    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1905-03-18
-    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1916-03-20
-    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
+    Relevant courses:
+      - title: Masters
+        summary: |
+          - Quantum Mechanics (PHYS 701)
+          - Statistical Physics (PHYS 704)
+          - Introduction to quantum information processing (QIC 710)
+          - Implementation of quantum information processing (QIC 750)
+          - Atoms and photons (Light matter interaction, QIC-895)
+          
+      - title: PhD
+        summary: |
+          - Theory of quantum information (Advanced QIC 820)
+          - Quantum many-body physics (PHYS 789)
+          - Quantum sensing (QIC 890)
+          
+  
     # Skills:
     #   - name: 
     #     level:
@@ -173,22 +174,35 @@ cv:
     #     icon: fa-solid fa-tag
     #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    # Certificates:
-    #   - name: Machine Learning
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-location-dot
+    Teaching assistance (TA):
+      - title: Fall 2021 - Spring 2022
+        summary: |
+          - Statistical mechanics (PHYS 359)
+          - Classical mechanics and special relativity (PHYS 263)
 
-    #   - name: Quantum Computing
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-tag
+      - title: Fall 2022 - Spring 2023
+        summary: |
+          - Statistical mechanics (PHYS 359)
+          - Classical mechanics and special relativity (PHYS 263)
 
-    #   - name: Quantum Information
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-envelope
+      - title: Fall 2023 - Spring 2024
+        summary: |
+          - Intermediate classical mechanics (PHYS 363)
+          - Quantum Physics 2 (PHYS 334)
+      
+      - title: Fall 2024 - Spring 2025
+        summary: |
+          - Classical Mechanics (PHYS 363)
+          - Quantum Physics 1 (PHYS 234)
+          - Introductory Astronomy (SCI 238)
+      
+      - title: Fall 2025 - Spring 2026
+        summary: |
+          - Mechanics (PHYS 121)
+          - Physics, the Universe and everything (SCI 207)
 
+
+      
     # Projects:
     #   - name: Quantum Computing
     #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
