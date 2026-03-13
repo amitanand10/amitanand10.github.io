@@ -31,11 +31,12 @@ cv:
         studyType: PhD
         start_date: September, 2023
         end_date: August, 2027
-        # score: ""
-        # courses: 
-        # highlights:
-        #   - 
-        #   - 
+        summary: Research focused on quantum chaos, recurrence, thermalization, and metrology
+          in non-equilibrium quantum systems.
+        highlights:
+          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
+
+
       - institution: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         location: Waterloo, Ontario, Canada
         url: https://uwaterloo.ca/institute-for-quantum-computing/
@@ -43,11 +44,9 @@ cv:
         studyType: Maters
         start_date: September, 2021
         end_date: August, 2023
-        # score: ""
-        # courses: 
-        # highlights:
-        #   - 
-        #   - 
+        summary: Master thesis on "Chaos and dynamical stability in closed kicked system."
+        highlights:
+          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
       - institution: Indian Institute for Engineering Science and Technology, Shibpur
         location: Shibpur, West Bengal, India
@@ -59,24 +58,24 @@ cv:
         # highlights:
 
     Experience:
-      - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
-        position: PhD student
-        location: Waterloo, Ontario, Canada
-        start_date: September, 2023
-        end_date: August, 2027
-        summary: Research focused on quantum chaos, recurrence, thermalization, and metrology
-          in non-equilibrium quantum systems.
-        highlights:
-          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
+      # - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
+      #   position: PhD student
+      #   location: Waterloo, Ontario, Canada
+      #   start_date: September, 2023
+      #   end_date: August, 2027
+      #   summary: Research focused on quantum chaos, recurrence, thermalization, and metrology
+      #     in non-equilibrium quantum systems.
+      #   highlights:
+      #     - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
-      - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
-        position: Masters student
-        location: Waterloo, Ontario, Canada
-        start_date: September, 2021
-        end_date: August, 2023
-        summary: Master thesis on "Chaos and dynamical stability in closed kicked system."
-        highlights:
-          - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
+      # - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
+      #   position: Masters student
+      #   location: Waterloo, Ontario, Canada
+      #   start_date: September, 2021
+      #   end_date: August, 2023
+      #   summary: Master thesis on "Chaos and dynamical stability in closed kicked system."
+      #   highlights:
+      #     - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
       - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         position: Research mentoring
