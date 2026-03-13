@@ -9,7 +9,7 @@ scholar_userid: https://scholar.google.ca/citations?user=CChmN-YAAAAJ&hl=en # yo
 linkedin: https://www.linkedin.com/in/amit-anand-452326174 # your LinkedIn username
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social:
-  logo: https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg
-  title: GitHub
-  url: https://github.com/amitanand10
+# custom_social:
+#   logo: https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg
+#   title: GitHub
+#   url: https://github.com/amitanand10
