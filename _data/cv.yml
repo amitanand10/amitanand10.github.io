@@ -24,7 +24,7 @@ cv:
 
   sections:
     Education:
-      - institution: Institute for Quantum Computing\nPhysics and Astronomy\nUniversity of Waterloo
+      - institution: "Institute for Quantum Computing\n,nPhysics and Astronomy,\nUniversity of Waterloo"
         location: Waterloo, Ontario, Canada
         url: https://uwaterloo.ca/institute-for-quantum-computing/
         area: Physics (Quantum Information)
@@ -36,7 +36,7 @@ cv:
         # highlights:
         #   - 
         #   - 
-      - institution: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+      - institution: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         location: Waterloo, Ontario, Canada
         url: https://uwaterloo.ca/institute-for-quantum-computing/
         area: Physics (Quantum Information)
@@ -59,7 +59,7 @@ cv:
         # highlights:
 
     Experience:
-      - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+      - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         position: PhD student
         location: Waterloo, Ontario, Canada
         start_date: September, 2023
@@ -69,7 +69,7 @@ cv:
         highlights:
           - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
-      - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+      - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         position: Masters student
         location: Waterloo, Ontario, Canada
         start_date: September, 2021
@@ -78,7 +78,7 @@ cv:
         highlights:
           - Co-supervised by Prof. Shohini Ghose and Prof. Robert Mann.
 
-      - company: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+      - company: "Institute for Quantum Computing,\nPhysics and Astronomy,\nUniversity of Waterloo"
         position: Research mentoring
         location: Waterloo, Ontario, Canada
         start_date: Summer, 2024
