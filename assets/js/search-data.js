@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-talks",
+          title: "Talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -404,17 +411,7 @@ ninja.data = [{
           section: "News",},{id: "news-started-phd-in-science-in-physics-with-specilization-in-quantum-information-at-iqc-and-physics-and-astronomy-department-university-of-waterloo",
           title: 'Started PhD in Science in physics with specilization in quantum information at IQC...',
           description: "",
-          section: "News",},{id: "projects-quantum-simulation",
-          title: 'Quantum simulation',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-quantum-metrology",
-          title: 'Quantum Metrology',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -424,16 +421,26 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-quantum-recurrence",
-          title: 'Quantum recurrence',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-classical-and-quantum-chaos",
           title: 'Classical and quantum chaos',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Classical_and_quantum_chaos/";
+            },},{id: "projects-quantum-metrology",
+          title: 'Quantum Metrology',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Quantum_metrology/";
+            },},{id: "projects-quantum-recurrence",
+          title: 'Quantum recurrence',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Quantum_recurrence/";
+            },},{id: "projects-quantum-simulation",
+          title: 'Quantum simulation',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Quantum_simulation/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
