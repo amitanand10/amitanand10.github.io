@@ -24,7 +24,7 @@ cv:
 
   sections:
     Education:
-      - institution: Institute for Quantum Computing, Physics and Astronomy, University of Waterloo
+      - institution: Institute for Quantum Computing\nPhysics and Astronomy\nUniversity of Waterloo
         location: Waterloo, Ontario, Canada
         url: https://uwaterloo.ca/institute-for-quantum-computing/
         area: Physics (Quantum Information)
