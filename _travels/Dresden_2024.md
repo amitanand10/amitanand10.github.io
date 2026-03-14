@@ -34,5 +34,3 @@ related_publications: true
 
 
 
-
-{% endraw %}
