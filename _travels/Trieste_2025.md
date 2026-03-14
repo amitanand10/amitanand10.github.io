@@ -1,33 +1,35 @@
 ---
 layout: page
-title: Trieste 2025 
-# date: 2025-18-08
-# description: a project that redirects to another website
-img: assets/img/Trieste_2025/img1.png
-# redirect: https://unsplash.com
+title: Trieste 2025
+img: /assets/img/Trieste_2025/img1.png
 importance: 1
 category: work
 ---
 
-
-{% assign pics = 
-  [
-    { img: "/assets/img/Trieste_2025/img2.jpg", caption: " " },
-    { img: "/assets/img/Trieste_2025/img3.jpg", caption: " " },
-    { img: "/assets/img/Trieste_2025/img4.jpg", caption: " " },
-    { img: "/assets/img/Trieste_2025/img5.jpg", caption: " " },
-    { img: "/assets/img/Trieste_2025/img6.jpg", caption: " " }
-  ]
-%}
-
-{% for pic in pics %}
 <div style="margin-bottom: 1.5em;">
-  <img src="{{ pic.img }}" alt="Travel photo" style="width:100%; max-width:600px; display:block; margin:auto;">
-  {% if pic.caption %}
-    <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">{{ pic.caption }}</div>
-  {% endif %}
+  <img src="/assets/img/Trieste_2025/img2.jpg" alt="Trieste photo 2" style="width:100%; max-width:600px; display:block; margin:auto;">
+  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 2</div>
 </div>
-{% endfor %}
+
+<div style="margin-bottom: 1.5em;">
+  <img src="/assets/img/Trieste_2025/img3.jpg" alt="Trieste photo 3" style="width:100%; max-width:600px; display:block; margin:auto;">
+  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 3</div>
+</div>
+
+<div style="margin-bottom: 1.5em;">
+  <img src="/assets/img/Trieste_2025/img4.jpg" alt="Trieste photo 4" style="width:100%; max-width:600px; display:block; margin:auto;">
+  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 4</div>
+</div>
+
+<div style="margin-bottom: 1.5em;">
+  <img src="/assets/img/Trieste_2025/img5.jpg" alt="Trieste photo 5" style="width:100%; max-width:600px; display:block; margin:auto;">
+  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 5</div>
+</div>
+
+<div style="margin-bottom: 1.5em;">
+  <img src="/assets/img/Trieste_2025/img6.jpg" alt="Trieste photo 6" style="width:100%; max-width:600px; display:block; margin:auto;">
+  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 6</div>
+</div>
 
 
 <!-- 
