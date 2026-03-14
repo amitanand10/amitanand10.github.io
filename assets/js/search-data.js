@@ -458,26 +458,21 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{id: "travels-trieste-2025",
-          title: 'Trieste 2025',
-          description: "Suumer school",
-          section: "Travels",handler: () => {
-              window.location.href = "/travels/5_project/";
-            },},{id: "travels-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Travels",handler: () => {
-              window.location.href = "/travels/6_project/";
-            },},{id: "travels-quantum-recurrence",
-          title: 'Quantum recurrence',
-          description: "with background image",
-          section: "Travels",handler: () => {
-              window.location.href = "/travels/Dresden_2025/";
-            },},{id: "travels-quantum-metrology",
-          title: 'Quantum Metrology',
+            },},{id: "travels-crotia-and-slovania-2025",
+          title: 'Crotia and Slovania 2025',
           description: "",
           section: "Travels",handler: () => {
-              window.location.href = "/travels/Quantum_metrology/";
+              window.location.href = "/travels/Crotia_Slovania_2025/";
+            },},{id: "travels-dresden-2024",
+          title: 'Dresden 2024',
+          description: "with background image",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Dresden_2024/";
+            },},{id: "travels-iceland-2025",
+          title: 'Iceland 2025',
+          description: "a project with no image",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Iceland_2025/";
             },},{id: "travels-trieste-2025",
           title: 'Trieste 2025',
           description: "",
