@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-travel",
+          title: "Travel",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/travels/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -451,6 +458,36 @@ ninja.data = [{
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
+            },},{id: "travels-trieste-2025",
+          title: 'Trieste 2025',
+          description: "Suumer school",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/5_project/";
+            },},{id: "travels-project-6",
+          title: 'project 6',
+          description: "a project with no image",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/6_project/";
+            },},{id: "travels-classical-and-quantum-chaos",
+          title: 'Classical and quantum chaos',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Classical_and_quantum_chaos/";
+            },},{id: "travels-quantum-metrology",
+          title: 'Quantum Metrology',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Quantum_metrology/";
+            },},{id: "travels-quantum-recurrence",
+          title: 'Quantum recurrence',
+          description: "with background image",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Quantum_recurrence/";
+            },},{id: "travels-quantum-simulation",
+          title: 'Quantum simulation',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Quantum_simulation/";
             },},{
         id: 'social-cv',
         title: 'CV',
@@ -467,10 +504,10 @@ ninja.data = [{
         },
       },{
         id: 'social-linkedin',
-        title: 'LinkedIn',
+        title: 'Linkedin',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/amit-anand-452326174", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-scholar',
