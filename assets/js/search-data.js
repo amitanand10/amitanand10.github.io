@@ -478,8 +478,8 @@ ninja.data = [{
           description: "",
           section: "Travels",handler: () => {
               window.location.href = "/travels/Trieste_2025/";
-            },},{id: "travels-classical-and-quantum-chaos",
-          title: 'Classical and quantum chaos',
+            },},{id: "travels-vienna-2023",
+          title: 'Vienna 2023',
           description: "",
           section: "Travels",handler: () => {
               window.location.href = "/travels/Vienna_2023/";
