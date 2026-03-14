@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Trieste 2025
-description: Suumer school
-img: assets/img/1.jpg
-importance: 3
+title: Crotia and Slovania 2025
+# description: another without an image
+img:
+importance: 4
 category: fun
 ---
 
