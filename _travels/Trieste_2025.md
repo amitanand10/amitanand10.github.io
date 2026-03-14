@@ -2,12 +2,32 @@
 layout: page
 title: Trieste 2025 
 # description: a project that redirects to another website
-img: assets/img/7.jpg
+img: assets/Trieste_2025/img1.png
 redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
+
+{% assign pics = 
+  [
+    { img: "/assets/Trieste_2025/img2.jpg", caption: " " },
+    { img: "/assets/Trieste_2025/img1.jpg", caption: " " },
+    { img: "/assets/Trieste_2025/img4.jpg", caption: " " },
+    { img: "/assets/Trieste_2025/img5.jpg", caption: " " },
+    { img: "/assets/Trieste_2025/img6.jpg", caption: " " }
+  ]
+%}
+
+{% for pic in pics %}
+<div style="margin-bottom: 1.5em;">
+  <img src="{{ pic.img }}" alt="Travel photo" style="width:100%; max-width:600px; display:block; margin:auto;">
+  {% if pic.caption %}
+    <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">{{ pic.caption }}</div>
+  {% endif %}
+</div>
+{% endfor %}
+<!-- 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
@@ -78,4 +98,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
