@@ -503,13 +503,6 @@ ninja.data = [{
           window.open("mailto:%61%36%33%61%6E%61%6E%64@%75%77%61%74%65%72%6C%6F%6F.%63%61", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'Linkedin',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
