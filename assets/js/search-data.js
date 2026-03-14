@@ -468,26 +468,26 @@ ninja.data = [{
           description: "a project with no image",
           section: "Travels",handler: () => {
               window.location.href = "/travels/6_project/";
-            },},{id: "travels-classical-and-quantum-chaos",
-          title: 'Classical and quantum chaos',
-          description: "",
+            },},{id: "travels-quantum-recurrence",
+          title: 'Quantum recurrence',
+          description: "with background image",
           section: "Travels",handler: () => {
-              window.location.href = "/travels/Classical_and_quantum_chaos/";
+              window.location.href = "/travels/Dresden_2025/";
             },},{id: "travels-quantum-metrology",
           title: 'Quantum Metrology',
           description: "",
           section: "Travels",handler: () => {
               window.location.href = "/travels/Quantum_metrology/";
-            },},{id: "travels-quantum-recurrence",
-          title: 'Quantum recurrence',
-          description: "with background image",
-          section: "Travels",handler: () => {
-              window.location.href = "/travels/Quantum_recurrence/";
-            },},{id: "travels-quantum-simulation",
-          title: 'Quantum simulation',
+            },},{id: "travels-trieste-2025",
+          title: 'Trieste 2025',
           description: "",
           section: "Travels",handler: () => {
-              window.location.href = "/travels/Quantum_simulation/";
+              window.location.href = "/travels/Trieste_2025/";
+            },},{id: "travels-classical-and-quantum-chaos",
+          title: 'Classical and quantum chaos',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/travels/Vienna_2023/";
             },},{
         id: 'social-cv',
         title: 'CV',
