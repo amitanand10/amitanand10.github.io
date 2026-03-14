@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trieste 2025 
-date: 2025-18-08
+# date: 2025-18-08
 # description: a project that redirects to another website
 img: assets/Trieste_2025/img1.png
 redirect: https://unsplash.com
@@ -13,7 +13,7 @@ category: work
 {% assign pics = 
   [
     { img: "/assets/Trieste_2025/img2.jpg", caption: " " },
-    { img: "/assets/Trieste_2025/img1.jpg", caption: " " },
+    { img: "/assets/Trieste_2025/img3.jpg", caption: " " },
     { img: "/assets/Trieste_2025/img4.jpg", caption: " " },
     { img: "/assets/Trieste_2025/img5.jpg", caption: " " },
     { img: "/assets/Trieste_2025/img6.jpg", caption: " " }
