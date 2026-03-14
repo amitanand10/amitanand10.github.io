@@ -465,7 +465,7 @@ ninja.data = [{
               window.location.href = "/travels/Crotia_Slovania_2025/";
             },},{id: "travels-dresden-2024",
           title: 'Dresden 2024',
-          description: "with background image",
+          description: "",
           section: "Travels",handler: () => {
               window.location.href = "/travels/Dresden_2024/";
             },},{id: "travels-iceland-2025",
