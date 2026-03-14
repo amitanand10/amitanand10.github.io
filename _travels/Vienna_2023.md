@@ -14,11 +14,6 @@ giscus_comments: true
 </div>
 
 <div style="margin-bottom: 1.5em;">
-  <img src="/assets/img/Vienna_2023/img3.jpg" alt="Vienna photo 3" style="width:100%; max-width:600px; display:block; margin:auto;">
-  <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 3</div>
-</div>
-
-<div style="margin-bottom: 1.5em;">
   <img src="/assets/img/Vienna_2023/img4.jpg" alt="Vienna photo 4" style="width:100%; max-width:600px; display:block; margin:auto;">
   <div style="text-align:center; font-size:0.95em; color:#666; margin-top:0.5em;">Caption for image 4</div>
 </div>
