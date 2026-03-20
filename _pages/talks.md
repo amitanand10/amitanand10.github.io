@@ -10,10 +10,17 @@ nav_order: 4
 
 <ul>
   <li>
+    <strong>Quantum recurrences in Floquet systems</strong><br>
+    Location: Indian Association for the Cultivation of Science, Kolkata<br>
+    Event: Seminar<br>
+    Date: January, 2026
+  </li>
+
+  <li>
     <strong>Non-linearity and chaos in the kicked top</strong><br>
     Location: University of Waterloo<br>
     Event: Theory Canada, 2024<br>
-    Date: May, 2022
+    Date: May, 2024
   </li>
   <li>
     <strong>Anomalous periodicity in the kicked top</strong><br>
