@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-04-22'
 papers:
   CChmN-YAAAAJ:Se3iqnhoufwC:
     citations: 4
@@ -30,7 +30,7 @@ papers:
     title: Quantum recurrences and the arithmetic of Floquet dynamics
     year: '2025'
   CChmN-YAAAAJ:u5HHmVD_uO8C:
-    citations: 124
+    citations: 125
     title: 'Quantum machine learning: A review and current status'
     year: '2020'
   CChmN-YAAAAJ:ufrVoPGSRksC:
