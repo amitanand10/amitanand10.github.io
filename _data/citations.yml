@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-04-27'
 papers:
   CChmN-YAAAAJ:Se3iqnhoufwC:
     citations: 4
@@ -18,7 +18,7 @@ papers:
     title: Chaos and dynamical instability in a closed kicked system
     year: '2023'
   CChmN-YAAAAJ:Y0pCki6q_DkC:
-    citations: 16
+    citations: 17
     title: Quantum recurrences in the kicked top
     year: '2024'
   CChmN-YAAAAJ:qjMakFHDy7sC:
@@ -28,7 +28,7 @@ papers:
   CChmN-YAAAAJ:roLk4NBRz8UC:
     citations: 0
     title: Quantum recurrences and the arithmetic of Floquet dynamics
-    year: '2025'
+    year: '2026'
   CChmN-YAAAAJ:u5HHmVD_uO8C:
     citations: 125
     title: 'Quantum machine learning: A review and current status'
