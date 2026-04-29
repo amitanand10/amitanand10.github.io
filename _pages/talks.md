@@ -49,7 +49,7 @@ nav_order: 4
     <strong>Quantum recurrences for enhanced metrology with cold atoms</strong><br>
     Location: Perimeter Institute and Institute for Quantum Computing (IQC)<br>
     Event: Year of Quantum Across Canada<br>
-    Date: October, 2019
+    Date: October, 2025
   </li>
   <li>
     <strong>Quantum recurrences and arithmetic of Floquet dynamics</strong><br>
@@ -67,7 +67,7 @@ nav_order: 4
     <strong>Quantum recurrences in the kicked top</strong><br>
     Location: Perimeter Institute, Canada<br>
     Event: Physics of Quantum Information 2024<br>
-    Date: July, 2023
+    Date: July, 2024
   </li>
   <li>
     <strong>Quantum recurrences in the kicked top</strong><br>
