@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-18'
+  last_updated: '2026-05-27'
 papers:
   CChmN-YAAAAJ:Se3iqnhoufwC:
     citations: 4
     title: "Solving diner\u2019s dilemma game, circuit implementation and verification on the IBM quantum simulator"
     year: '2020'
   CChmN-YAAAAJ:UeHWp8X0CEIC:
-    citations: 12
+    citations: 13
     title: Simulating quantum chaos on a quantum computer
     year: '2024'
   CChmN-YAAAAJ:UebtZRa9Y70C:
@@ -30,7 +30,7 @@ papers:
     title: Quantum recurrences and the arithmetic of Floquet dynamics
     year: '2026'
   CChmN-YAAAAJ:u5HHmVD_uO8C:
-    citations: 128
+    citations: 129
     title: 'Quantum machine learning: A review and current status'
     year: '2020'
   CChmN-YAAAAJ:ufrVoPGSRksC:
